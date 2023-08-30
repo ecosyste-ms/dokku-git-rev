@@ -1,4 +1,4 @@
-# dokku-git-rev [![Build Status](https://img.shields.io/travis/dokku-community/dokku-git-rev.svg?branch=master "Build Status")](https://travis-ci.org/dokku-community/dokku-git-rev)
+# dokku-git-rev 
 
 Lets you fetch the git revision hash used to build the app from the `APP_REVISION`
 
@@ -12,11 +12,11 @@ Lets you fetch the git revision hash used to build the app from the `APP_REVISIO
 ```shell
 # on 0.3.x
 cd /var/lib/dokku/plugins
-git clone https://github.com/dokku-community/dokku-git-rev.git dokku-git-rev
+git clone https://github.com/ecosyste-ms/dokku-git-rev.git dokku-git-rev
 dokku plugins-install
 
 # on 0.4.x+
-dokku plugin:install https://github.com/dokku-community/dokku-git-rev.git --name dokku-git-rev
+dokku plugin:install https://github.com/ecosyste-ms/dokku-git-rev.git --name dokku-git-rev
 ```
 
 ## hooks
