@@ -1,6 +1,6 @@
 # dokku-git-rev [![Build Status](https://img.shields.io/travis/dokku-community/dokku-git-rev.svg?branch=master "Build Status")](https://travis-ci.org/dokku-community/dokku-git-rev)
 
-Lets you fetch the git revision hash used to build the app from the `GIT_REV`
+Lets you fetch the git revision hash used to build the app from the `APP_REVISION`
 
 ## requirements
 
@@ -23,8 +23,8 @@ dokku plugin:install https://github.com/dokku-community/dokku-git-rev.git --name
 
 This plugin provides hooks:
 
-* `receive-app`: captures the current `GIT_REV`
+* `receive-app`: captures the current `APP_REVISION`
 
 ## usage
 
-On git deploys, the `GIT_REV` environment variable will be set for your application and be available for your usage.
+On git deploys, the `APP_REVISION` environment variable will be set for your application and be available for your usage.
